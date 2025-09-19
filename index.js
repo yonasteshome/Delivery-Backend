@@ -26,7 +26,7 @@ const app = express();
 
 //frontend make the frontend work on port 3000
 app.use(cors({
-  origin: "https://real-time-food-delivery-22-y6nn.vercel.app",
+  origin: "*",
   credentials: true,
 }));
 
