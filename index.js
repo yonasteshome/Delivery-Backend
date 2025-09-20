@@ -26,7 +26,7 @@ const app = express();
 
 //frontend make the frontend work on port 3000
 app.use(cors({
-  origin: "*",
+  origin: "https://frontend-beta-five-38.vercel.app/",
   credentials: true,
 }));
 
